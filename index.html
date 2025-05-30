@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>FoiaSoft Privacy Policy</title>
-  <style>body { font-family: Arial; max-width: 800px; margin: auto; }</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swift Code Display</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .code-container {
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            padding: 15px;
+            overflow-x: auto;
+        }
+        .swift-keyword {
+            color: #AA0D91;
+            font-weight: bold;
+        }
+        .swift-type {
+            color: #0A7FDA;
+        }
+        .swift-string {
+            color: #D20F0F;
+        }
+        .swift-comment {
+            color: #6C7980;
+            font-style: italic;
+        }
+        .swift-number {
+            color: #1C00CF;
+        }
+    </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>[Your policy content here...]</p>
+    <h1>Swift Code Example</h1>
+    
+    <div class="code-container">
+        <pre><code><span class="swift-keyword">import</span> <span class="swift-type">Foundation</span>
+
+<span class="swift-comment">// Sample Swift function</span>
+<span class="swift-keyword">func</span> <span class="swift-type">calculateSum</span>(<span class="swift-keyword">_</span> numbers: [<span class="swift-type">Int</span>]) -&gt; <span class="swift-type">Int</span> {
+    <span class="swift-keyword">return</span> numbers.<span class="swift-type">reduce</span>(<span class="swift-number">0</span>, +)
+}
+
+<span class="swift-keyword">let</span> numbers = [<span class="swift-number">1</span>, <span class="swift-number">2</span>, <span class="swift-number">3</span>, <span class="swift-number">4</span>, <span class="swift-number">5</span>]
+<span class="swift-keyword">let</span> sum = <span class="swift-type">calculateSum</span>(numbers)
+<span class="swift-type">print</span>(<span class="swift-string">"The sum is: \(sum)"</span>)</code></pre>
+    </div>
+
+    <h2>How This Works</h2>
+    <p>The HTML uses CSS classes to style different Swift code elements:</p>
+    <ul>
+        <li><span class="swift-keyword">Keywords</span> (import, func, let, etc.)</li>
+        <li><span class="swift-type">Types</span> (Int, String, etc.)</li>
+        <li><span class="swift-string">Strings</span> (in quotes)</li>
+        <li><span class="swift-comment">Comments</span></li>
+        <li><span class="swift-number">Numbers</span></li>
+    </ul>
 </body>
 </html>
